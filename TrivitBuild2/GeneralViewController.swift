@@ -13,6 +13,15 @@ class GeneralViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+//        let defaults = UserDefaults.standard
+//        defaults.set("Coding Explorer", forKey: "userNameKey")
+//        
+//        if let name = defaults.string(forKey: "userNameKey") {
+//            print(name)
+//        }
+
     }
 
     override func didReceiveMemoryWarning() {

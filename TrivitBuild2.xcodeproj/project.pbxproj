@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3DCE8E171E82BA9200DF412A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE8E161E82BA9200DF412A /* AppDelegate.swift */; };
 		3DCE8E201E82BA9300DF412A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE8E1E1E82BA9300DF412A /* Main.storyboard */; };
-		3DCE8E221E82BA9300DF412A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE8E211E82BA9300DF412A /* Assets.xcassets */; };
 		3DCE8E251E82BA9300DF412A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE8E231E82BA9300DF412A /* LaunchScreen.storyboard */; };
 		3DCE8E321E82BAAD00DF412A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE8E301E82BAAD00DF412A /* Interface.storyboard */; };
 		3DCE8E341E82BAAD00DF412A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE8E331E82BAAD00DF412A /* Assets.xcassets */; };
@@ -27,6 +26,9 @@
 		3DCE8E841E82C23600DF412A /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE8E831E82C23600DF412A /* StepViewController.swift */; };
 		3DCE8E861E82C25500DF412A /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE8E851E82C25500DF412A /* GeneralViewController.swift */; };
 		3DCE8E881E82C27B00DF412A /* MovetimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE8E871E82C27B00DF412A /* MovetimeViewController.swift */; };
+		B6CC2FBC1E82EF05005E5286 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC2FBB1E82EF05005E5286 /* SetupViewController.swift */; };
+		B6CC2FBE1E831A2B005E5286 /* DOBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC2FBD1E831A2B005E5286 /* DOBViewController.swift */; };
+		B6CC2FC01E832A94005E5286 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC2FBF1E832A94005E5286 /* HeightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +77,6 @@
 		3DCE8E131E82BA9200DF412A /* TrivitBuild2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivitBuild2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCE8E161E82BA9200DF412A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCE8E1F1E82BA9300DF412A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DCE8E211E82BA9300DF412A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCE8E241E82BA9300DF412A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DCE8E261E82BA9300DF412A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCE8E2E1E82BAAD00DF412A /* Trivit2Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivit2Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +98,9 @@
 		3DCE8E831E82C23600DF412A /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
 		3DCE8E851E82C25500DF412A /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		3DCE8E871E82C27B00DF412A /* MovetimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovetimeViewController.swift; sourceTree = "<group>"; };
+		B6CC2FBB1E82EF05005E5286 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		B6CC2FBD1E831A2B005E5286 /* DOBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOBViewController.swift; sourceTree = "<group>"; };
+		B6CC2FBF1E832A94005E5286 /* HeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +149,11 @@
 				3DCE8E831E82C23600DF412A /* StepViewController.swift */,
 				3DCE8E1E1E82BA9300DF412A /* Main.storyboard */,
 				3DCE8E811E82C22600DF412A /* CadenceViewController.swift */,
+				B6CC2FBD1E831A2B005E5286 /* DOBViewController.swift */,
 				3DCE8E871E82C27B00DF412A /* MovetimeViewController.swift */,
-				3DCE8E211E82BA9300DF412A /* Assets.xcassets */,
 				3DCE8E231E82BA9300DF412A /* LaunchScreen.storyboard */,
+				B6CC2FBF1E832A94005E5286 /* HeightViewController.swift */,
+				B6CC2FBB1E82EF05005E5286 /* SetupViewController.swift */,
 				3DCE8E261E82BA9300DF412A /* Info.plist */,
 			);
 			path = TrivitBuild2;
@@ -256,17 +262,17 @@
 				TargetAttributes = {
 					3DCE8E121E82BA9200DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = VZLLMX3ME8;
+						DevelopmentTeam = PE4JLLYH4Q;
 						ProvisioningStyle = Automatic;
 					};
 					3DCE8E2D1E82BAAD00DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = VZLLMX3ME8;
+						DevelopmentTeam = PE4JLLYH4Q;
 						ProvisioningStyle = Automatic;
 					};
 					3DCE8E391E82BAAE00DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = VZLLMX3ME8;
+						DevelopmentTeam = PE4JLLYH4Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -297,7 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCE8E251E82BA9300DF412A /* LaunchScreen.storyboard in Resources */,
-				3DCE8E221E82BA9300DF412A /* Assets.xcassets in Resources */,
 				3DCE8E201E82BA9300DF412A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,9 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCE8E881E82C27B00DF412A /* MovetimeViewController.swift in Sources */,
+				B6CC2FBE1E831A2B005E5286 /* DOBViewController.swift in Sources */,
 				3DCE8E821E82C22600DF412A /* CadenceViewController.swift in Sources */,
 				3DCE8E841E82C23600DF412A /* StepViewController.swift in Sources */,
 				3DCE8E861E82C25500DF412A /* GeneralViewController.swift in Sources */,
+				B6CC2FC01E832A94005E5286 /* HeightViewController.swift in Sources */,
+				B6CC2FBC1E82EF05005E5286 /* SetupViewController.swift in Sources */,
 				3DCE8E171E82BA9200DF412A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				INFOPLIST_FILE = TrivitBuild2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2;
@@ -501,7 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				INFOPLIST_FILE = TrivitBuild2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2;
@@ -514,7 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				INFOPLIST_FILE = "Trivit2Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp.watchkitextension;
@@ -531,7 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				INFOPLIST_FILE = "Trivit2Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp.watchkitextension;
@@ -549,7 +557,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				IBSC_MODULE = Trivit2Watch_Extension;
 				INFOPLIST_FILE = Trivit2Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp;
@@ -567,7 +575,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				IBSC_MODULE = Trivit2Watch_Extension;
 				INFOPLIST_FILE = Trivit2Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp;
@@ -599,6 +607,7 @@
 				3DCE8E2B1E82BA9300DF412A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCE8E4F1E82BAAE00DF412A /* Build configuration list for PBXNativeTarget "Trivit2Watch Extension" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +616,7 @@
 				3DCE8E511E82BAAE00DF412A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DCE8E531E82BAAE00DF412A /* Build configuration list for PBXNativeTarget "Trivit2Watch" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +625,7 @@
 				3DCE8E551E82BAAE00DF412A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

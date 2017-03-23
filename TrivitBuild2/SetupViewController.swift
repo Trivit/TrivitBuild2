@@ -1,19 +1,11 @@
-//
-//  CadenceViewController.swift
-//  TrivitBuild2
-//
-//  Created by TRIVIT on 3/22/17.
-//  Copyright © 2017 TRIVIT. All rights reserved.
-//
-
 import UIKit
 
-class CadenceViewController: UIViewController {
+class SetupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        print("SETUP")
     }
     
     override func didReceiveMemoryWarning() {
