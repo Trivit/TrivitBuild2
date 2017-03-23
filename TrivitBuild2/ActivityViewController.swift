@@ -24,17 +24,21 @@ class ActivityViewController: UIViewController {
     @IBAction func LowActivityButton(_ sender: Any) {
         let defaults = UserDefaults.standard
         defaults.set("low", forKey: "activityLevel")
+        print("hello1")
         performSegue(withIdentifier: "GoalMover", sender: self)
     }
     
+    
     @IBAction func MediumActivityButton(_ sender: Any) {
         let defaults = UserDefaults.standard
+        print("Hello2")
         defaults.set("medium", forKey: "activityLevel")
         performSegue(withIdentifier: "GoalMover", sender: self)
     }
 
     @IBAction func HighActivityButton(_ sender: Any) {
         let defaults = UserDefaults.standard
+        print("hello3")
         defaults.set("high", forKey: "activityLevel")
         performSegue(withIdentifier: "GoalMover", sender: self)
     }
