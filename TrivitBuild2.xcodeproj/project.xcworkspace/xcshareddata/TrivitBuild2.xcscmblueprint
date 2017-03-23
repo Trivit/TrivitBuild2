@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8E642D4D499AF8ADE9658470200CFBC87244B2F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4DA2152FE80EB4AAE33A8282A21BA31F8C9B5EE7" : 9223372036854775807,
+    "8E642D4D499AF8ADE9658470200CFBC87244B2F7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE874199-DC97-4819-BB95-FB56FB67052A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4DA2152FE80EB4AAE33A8282A21BA31F8C9B5EE7" : "",
+    "8E642D4D499AF8ADE9658470200CFBC87244B2F7" : "TrivitBuild2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TrivitBuild2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TrivitBuild2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Trivit\/TrivitBuild1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4DA2152FE80EB4AAE33A8282A21BA31F8C9B5EE7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Trivit\/TrivitBuild2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E642D4D499AF8ADE9658470200CFBC87244B2F7"
+    }
+  ]
+}
