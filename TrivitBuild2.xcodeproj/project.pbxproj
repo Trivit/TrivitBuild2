@@ -78,6 +78,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3DCABB671E88143C004FCD0C /* Trivit2Watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trivit2Watch.entitlements; sourceTree = "<group>"; };
+		3DCABB681E881444004FCD0C /* Trivit2Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Trivit2Watch Extension.entitlements"; sourceTree = "<group>"; };
 		3DCE8E131E82BA9200DF412A /* TrivitBuild2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivitBuild2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCE8E161E82BA9200DF412A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCE8E1F1E82BA9300DF412A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		3DCE8E2F1E82BAAD00DF412A /* Trivit2Watch */ = {
 			isa = PBXGroup;
 			children = (
+				3DCABB671E88143C004FCD0C /* Trivit2Watch.entitlements */,
 				3DCE8E301E82BAAD00DF412A /* Interface.storyboard */,
 				3DCE8E331E82BAAD00DF412A /* Assets.xcassets */,
 				3DCE8E351E82BAAD00DF412A /* Info.plist */,
@@ -176,6 +179,7 @@
 		3DCE8E3E1E82BAAE00DF412A /* Trivit2Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3DCABB681E881444004FCD0C /* Trivit2Watch Extension.entitlements */,
 				3DCE8E411E82BAAE00DF412A /* InterfaceController.swift */,
 				3DCE8E431E82BAAE00DF412A /* ExtensionDelegate.swift */,
 				3DCE8E451E82BAAE00DF412A /* NotificationController.swift */,
@@ -284,7 +288,7 @@
 				TargetAttributes = {
 					3DCE8E121E82BA9200DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PE4JLLYH4Q;
+						DevelopmentTeam = VZLLMX3ME8;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -294,13 +298,23 @@
 					};
 					3DCE8E2D1E82BAAD00DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PE4JLLYH4Q;
+						DevelopmentTeam = VZLLMX3ME8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					3DCE8E391E82BAAE00DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PE4JLLYH4Q;
+						DevelopmentTeam = VZLLMX3ME8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -528,7 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TrivitBuild2/TrivitBuild2.entitlements;
-				DEVELOPMENT_TEAM = PE4JLLYH4Q;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				INFOPLIST_FILE = TrivitBuild2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2;
@@ -542,7 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TrivitBuild2/TrivitBuild2.entitlements;
-				DEVELOPMENT_TEAM = PE4JLLYH4Q;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				INFOPLIST_FILE = TrivitBuild2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2;
@@ -555,7 +569,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = PE4JLLYH4Q;
+				CODE_SIGN_ENTITLEMENTS = "Trivit2Watch Extension/Trivit2Watch Extension.entitlements";
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				INFOPLIST_FILE = "Trivit2Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp.watchkitextension;
@@ -572,7 +587,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = PE4JLLYH4Q;
+				CODE_SIGN_ENTITLEMENTS = "Trivit2Watch Extension/Trivit2Watch Extension.entitlements";
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				INFOPLIST_FILE = "Trivit2Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp.watchkitextension;
@@ -590,7 +606,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PE4JLLYH4Q;
+				CODE_SIGN_ENTITLEMENTS = Trivit2Watch/Trivit2Watch.entitlements;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				IBSC_MODULE = Trivit2Watch_Extension;
 				INFOPLIST_FILE = Trivit2Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp;
@@ -608,7 +625,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PE4JLLYH4Q;
+				CODE_SIGN_ENTITLEMENTS = Trivit2Watch/Trivit2Watch.entitlements;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				IBSC_MODULE = Trivit2Watch_Extension;
 				INFOPLIST_FILE = Trivit2Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp;

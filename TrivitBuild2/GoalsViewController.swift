@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WatchConnectivity
 
 class GoalsViewController: UIViewController {
 
@@ -18,6 +19,9 @@ class GoalsViewController: UIViewController {
     @IBOutlet weak var stepField: UITextField!
     @IBOutlet weak var CadField: UITextField!
     @IBOutlet weak var MoveField: UITextField!
+    
+    var session: WCSession? = WCSession.isSupported() ? WCSession.default() : nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -58,6 +62,11 @@ class GoalsViewController: UIViewController {
             default:
             break
         }
+        
+        if (WCSession.isSupported()) {
+            session?.delegate = self
+            session?.activate()
+        }
 
     }
     func dismissKeyboard() {
@@ -70,18 +79,82 @@ class GoalsViewController: UIViewController {
         let goalCadence = CadField.text;
         let goalMovetime = MoveField.text;
         
+        let gStep = ["StepGoal": stepField.text!]
+        let gCad = ["CadenceGoal": CadField.text!]
+        let gMove = ["MovetimeGoal": MoveField.text!]
         
         let defaults = UserDefaults.standard
         defaults.set(goalStep, forKey: "StepGoal")
         defaults.set(goalCadence, forKey: "CadenceGoal")
         defaults.set(goalMovetime, forKey: "MovetimeGoal")
+        
+        if let session = session, session.isReachable {
+            session.sendMessage(gStep,replyHandler: { replyData in
+                                    // handle reply from iPhone app here
+                                    print("MESSAGE SEND")
+            }, errorHandler: { error in
+                // catch any errors here
+                print(error)
+            })
+        } else {
+            
+        }
+        if let session = session, session.isReachable {
+            session.sendMessage(gCad,replyHandler: { replyData in
+                // handle reply from iPhone app here
+                print("MESSAGE SEND")
+            }, errorHandler: { error in
+                // catch any errors here
+                print(error)
+            })
+        } else {
+            
+        }
+        if let session = session, session.isReachable {
+            session.sendMessage(gMove,replyHandler: { replyData in
+                // handle reply from iPhone app here
+                print("MESSAGE SEND")
+            }, errorHandler: { error in
+                // catch any errors here
+                print(error)
+            })
+        } else {
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
 
 }
+// MARK: WCSessionDelegate
+extension GoalsViewController: WCSessionDelegate {
+    /** Called when all delegate callbacks for the previously selected watch has occurred. The session can be re-activated for the now selected watch using activateSession. */
+    @available(iOS 9.3, *)
+    public func sessionDidDeactivate(_ session: WCSession) {
+        //Dummy Implementation
+    }
+    
+    /** Called when the session can no longer be used to modify or add any new transfers and, all interactive messages will be cancelled, but delegate callbacks for background transfers can still occur. This will happen when the selected watch is being changed. */
+    @available(iOS 9.3, *)
+    public func sessionDidBecomeInactive(_ session: WCSession) {
+        //Dummy Implementation
+    }
+    
+    /** Called when the session has completed activation. If session state is WCSessionActivationStateNotActivated there will be an error with more details. */
+    @available(iOS 9.3, *)
+    public func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        //Dummy Implementation
+    }
+    
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
+        
+        //Use this to update the UI instantaneously (otherwise, takes a little while)
+        
+    }
+}
+

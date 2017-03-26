@@ -34,6 +34,8 @@
                         <label width="104" height="62" alignment="center" text="GOALSTEP" textAlignment="center" id="KBj-QP-iUs"/>
                     </items>
                     <connections>
+                        <outlet property="GoalStep" destination="KBj-QP-iUs" id="ofb-34-A6X"/>
+                        <outlet property="NumSteps" destination="BpH-Cf-Rx1" id="zvZ-WG-VUj"/>
                         <segue destination="lCq-vX-7RH" kind="relationship" relationship="nextPage" id="9G5-CE-wd1"/>
                     </connections>
                 </controller>
@@ -51,6 +53,7 @@
                         <label width="104" height="62" alignment="center" text="GOALCAD" textAlignment="center" id="nXZ-ZF-XnI"/>
                     </items>
                     <connections>
+                        <outlet property="GoalCad" destination="nXZ-ZF-XnI" id="QhE-eJ-i2q"/>
                         <segue destination="S1J-v2-HpX" kind="relationship" relationship="nextPage" id="LJX-JL-Em8"/>
                     </connections>
                 </controller>
@@ -67,6 +70,9 @@
                         <separator alignment="left" id="zqV-dT-ccV"/>
                         <label width="104" height="62" alignment="center" text="GOALMOVE" textAlignment="center" id="1X1-lH-gqG"/>
                     </items>
+                    <connections>
+                        <outlet property="GoalMove" destination="1X1-lH-gqG" id="Qnk-Fq-fmS"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="983" y="347"/>
