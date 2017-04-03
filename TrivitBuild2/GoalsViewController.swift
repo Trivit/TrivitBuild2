@@ -38,24 +38,24 @@ class GoalsViewController: UIViewController {
             case "low":
                 StepRecommend.text = "I'd recommend 6000"
                 stepField.placeholder = "6000"
-                CadenceRecommend.text = "I'd recommend 3.0"
-                CadField.placeholder = "3.0"
+                CadenceRecommend.text = "I'd recommend 80"
+                CadField.placeholder = "80"
                 MovetimeRecommend.text = "I'd recommend 40%"
                 MoveField.placeholder = "40"
             break
             case "medium":
                 StepRecommend.text = "I'd recommend 8000"
                 stepField.placeholder = "8000"
-                CadenceRecommend.text = "I'd recommend 4.0"
-                CadField.placeholder = "4.0"
+                CadenceRecommend.text = "I'd recommend 100"
+                CadField.placeholder = "100"
                 MovetimeRecommend.text = "I'd recommend 30%"
                 MoveField.placeholder = "30"
             break
             case "high":
                 StepRecommend.text = "I'd recommend 10000"
                 stepField.placeholder = "10000"
-                CadenceRecommend.text = "I'd recommend 5.0"
-                CadField.placeholder = "5.0"
+                CadenceRecommend.text = "I'd recommend 100"
+                CadField.placeholder = "100"
                 MovetimeRecommend.text = "I'd recommend 25%"
                 MoveField.placeholder = "25"
             break

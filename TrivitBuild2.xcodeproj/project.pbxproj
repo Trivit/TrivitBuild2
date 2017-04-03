@@ -30,6 +30,7 @@
 		3DCE8E8C1E84126D00DF412A /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE8E8B1E84126D00DF412A /* GoalsViewController.swift */; };
 		B619B0A81E8443D700B3EB40 /* ChangePersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619B0A71E8443D700B3EB40 /* ChangePersonalViewController.swift */; };
 		B619B0AA1E8443E400B3EB40 /* ChangeGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619B0A91E8443E400B3EB40 /* ChangeGoalsViewController.swift */; };
+		B689F91D1E89AE7100501510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B689F91C1E89AE7100501510 /* Assets.xcassets */; };
 		B6CC2FBC1E82EF05005E5286 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC2FBB1E82EF05005E5286 /* SetupViewController.swift */; };
 		B6CC2FBE1E831A2B005E5286 /* DOBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC2FBD1E831A2B005E5286 /* DOBViewController.swift */; };
 		B6CC2FC01E832A94005E5286 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC2FBF1E832A94005E5286 /* HeightViewController.swift */; };
@@ -109,6 +110,7 @@
 		B619B0A61E84384100B3EB40 /* TrivitBuild2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrivitBuild2.entitlements; sourceTree = "<group>"; };
 		B619B0A71E8443D700B3EB40 /* ChangePersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePersonalViewController.swift; sourceTree = "<group>"; };
 		B619B0A91E8443E400B3EB40 /* ChangeGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeGoalsViewController.swift; sourceTree = "<group>"; };
+		B689F91C1E89AE7100501510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6CC2FBB1E82EF05005E5286 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		B6CC2FBD1E831A2B005E5286 /* DOBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOBViewController.swift; sourceTree = "<group>"; };
 		B6CC2FBF1E832A94005E5286 /* HeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				3DCE8E1E1E82BA9300DF412A /* Main.storyboard */,
 				3DCE8E231E82BA9300DF412A /* LaunchScreen.storyboard */,
 				3DCE8E261E82BA9300DF412A /* Info.plist */,
+				B689F91C1E89AE7100501510 /* Assets.xcassets */,
 			);
 			path = TrivitBuild2;
 			sourceTree = "<group>";
@@ -288,7 +291,7 @@
 				TargetAttributes = {
 					3DCE8E121E82BA9200DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = VZLLMX3ME8;
+						DevelopmentTeam = PE4JLLYH4Q;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -298,7 +301,7 @@
 					};
 					3DCE8E2D1E82BAAD00DF412A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = VZLLMX3ME8;
+						DevelopmentTeam = PE4JLLYH4Q;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCE8E251E82BA9300DF412A /* LaunchScreen.storyboard in Resources */,
+				B689F91D1E89AE7100501510 /* Assets.xcassets in Resources */,
 				3DCE8E201E82BA9300DF412A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,7 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TrivitBuild2/TrivitBuild2.entitlements;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				INFOPLIST_FILE = TrivitBuild2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2;
@@ -556,7 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TrivitBuild2/TrivitBuild2.entitlements;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				INFOPLIST_FILE = TrivitBuild2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2;
@@ -607,7 +611,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Trivit2Watch/Trivit2Watch.entitlements;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				IBSC_MODULE = Trivit2Watch_Extension;
 				INFOPLIST_FILE = Trivit2Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp;
@@ -626,7 +630,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Trivit2Watch/Trivit2Watch.entitlements;
-				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				DEVELOPMENT_TEAM = PE4JLLYH4Q;
 				IBSC_MODULE = Trivit2Watch_Extension;
 				INFOPLIST_FILE = Trivit2Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild2.watchkitapp;
