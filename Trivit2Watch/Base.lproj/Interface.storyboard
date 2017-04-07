@@ -14,15 +14,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Trivit2Watch" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Display Screen" id="hDL-TZ-4tB"/>
-                        <imageView alignment="left" image="screen" contentMode="scaleAspectFit" id="TDj-y7-8Yz"/>
+                        <imageView width="136" height="151" alignment="left" image="screen" id="TDj-y7-8Yz"/>
                     </items>
                     <connections>
                         <segue destination="ccA-HK-m1p" kind="relationship" relationship="nextPage" id="IJ9-w2-pNQ"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="347"/>
         </scene>
         <!--Step Controller-->
         <scene sceneID="4Oy-3q-9NX">

@@ -22,7 +22,10 @@ class CadenceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
-        GoalCad.setText(UserDefaults.standard.string(forKey: "CadenceGoal"))
+
+            GoalCad.setText(UserDefaults.standard.string(forKey: "CadenceGoal"))
+        
+        
     }
     
     override func didDeactivate() {

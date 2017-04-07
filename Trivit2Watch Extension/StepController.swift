@@ -32,8 +32,17 @@ class StepController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
-        startPedometerUpdates()
-        GoalStep.setText(UserDefaults.standard.string(forKey: "StepGoal"))
+        
+        
+        
+        if (!CMPedometer.isStepCountingAvailable()) {
+            GoalStep.setText(UserDefaults.standard.string(forKey: "Progress"))
+            NumSteps.setText(UserDefaults.standard.string(forKey: "Goal"))
+        }
+        else {
+            startPedometerUpdates()
+            GoalStep.setText(UserDefaults.standard.string(forKey: "StepGoal"))
+        }
         
         
         
